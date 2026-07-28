@@ -1,0 +1,114 @@
+{
+  "medethix_knowledgebase": {
+    "corporate_profile": {
+      "company_name": "MedEthix Incorporated",
+      "established": 2009,
+      "headquarters": "Philippines",
+      "parent_organization": "AC Health (Ayala Healthcare Holdings, Inc.)",
+      "vision": "To be the fastest-growing pharmaceutical company devoted to nurturing the health and wellness of Filipino families, driven by strong corporate and product branding.",
+      "mission": "To make high-quality medicines and healthcare solutions humanely accessible and affordable to every Filipino through operational efficiency and strategic global partnerships.",
+      "quality_standards": "Sourced from cGMP-compliant manufacturing partners holding accreditations from international regulatory bodies such as US-FDA and UK-MHRA.",
+      "fda_authorizations": "Over 500 product registrations and marketing authorizations across diverse therapeutic areas."
+    },
+    "core_business_divisions": [
+      {
+        "division": "Reproductive & Family Health",
+        "description": "Ethical product portfolio focused on maternal care, fertility, dysmenorrhea, men's health, and endocrine therapy."
+      },
+      {
+        "division": "First Aid & Consumer Health",
+        "description": "Innovative topical care, wound management sprays, pain relief aerosols, and oral thin films (OTF) for easy drug delivery."
+      },
+      {
+        "division": "Branded Generics & Hospital Therapeutics",
+        "description": "Injectable and oral formulations spanning anti-infectives, cardiovascular care, oncology, critical care, and neurology."
+      }
+    ],
+    "product_portfolio": [
+      {
+        "brand_name": "Dydrogest",
+        "generic_name": "Dydrogesterone",
+        "category": "Reproductive Health",
+        "clinical_indication": "Threatened miscarriage, recurrent pregnancy loss, luteal phase support, and dysmenorrhea."
+      },
+      {
+        "brand_name": "Pubergen",
+        "generic_name": "Human Chorionic Gonadotropin (hCG)",
+        "category": "Reproductive Health",
+        "clinical_indication": "Anovulatory infertility, hypogonadotropic hypogonadism, and cryptorchidism."
+      },
+      {
+        "brand_name": "Gynogen HP",
+        "generic_name": "Highly Purified Human Menopausal Gonadotropin (hMG)",
+        "category": "Reproductive Health",
+        "clinical_indication": "Controlled ovarian hyperstimulation in assisted reproductive technology (ART) and male hypogonadism."
+      },
+      {
+        "brand_name": "Endmet",
+        "generic_name": "Leuprorelin Acetate (3.75mg / 11.25mg)",
+        "category": "Endocrine & Oncology",
+        "clinical_indication": "Prostate cancer depot therapy, endometriosis management, and uterine fibroids."
+      },
+      {
+        "brand_name": "Mum-2-B Gold",
+        "generic_name": "Multivitamins + Minerals + DHA",
+        "category": "Maternal Nutrition",
+        "clinical_indication": "Comprehensive prenatal and postnatal supplementation for neural tube and fetal development."
+      },
+      {
+        "brand_name": "Evacarb",
+        "generic_name": "Carbamazepine (125mg / 250mg)",
+        "category": "Neurology & Maternal Care",
+        "clinical_indication": "Seizure disorder management and neuralgic pain during pregnancy."
+      },
+      {
+        "brand_name": "Evamin",
+        "generic_name": "Multivitamins",
+        "category": "General Health",
+        "clinical_indication": "Maternal and family vitamin supplementation to satisfy elevated metabolic demands."
+      },
+      {
+        "brand_name": "Tranamic",
+        "generic_name": "Tranexamic Acid",
+        "category": "Obstetrics & Surgical Care",
+        "clinical_indication": "Postpartum hemorrhage (PPH) control and heavy surgical blood loss prevention."
+      },
+      {
+        "brand_name": "Mamazol",
+        "generic_name": "Miconazole",
+        "category": "Dermatology & Mycology",
+        "clinical_indication": "Cutaneous candidiasis, balanitis, and intertrigo."
+      },
+      {
+        "brand_name": "Fast Aid Mist-Dress",
+        "generic_name": "Lidocaine (1%) + Cetrimide (0.1%)",
+        "category": "First Aid & Consumer Health",
+        "clinical_indication": "Spray-on liquid bandage for minor cuts, burns, and abrasions with local pain relief."
+      },
+      {
+        "brand_name": "RELISPRAY PLUS",
+        "generic_name": "Wintergreen, Camphor, Menthol, Eucalyptus, Turpentine, Clove & Cinnamon Oils",
+        "category": "Topical Analgesics",
+        "clinical_indication": "Deep aerosol penetration for acute muscle strains, joint pain, backache, and sprains."
+      },
+      {
+        "brand_name": "Fast Aid VINODINE",
+        "generic_name": "Povidone-Iodine 5% Aerosol",
+        "category": "First Aid & Antiseptics",
+        "clinical_indication": "Touch-free germicidal spray for wound infection prevention and burn antisepsis."
+      },
+      {
+        "brand_name": "Medifilm Vitamin D3",
+        "generic_name": "Cholecalciferol (Oral Thin Film)",
+        "category": "Consumer Health / OTF",
+        "clinical_indication": "Fast-dissolving oral strip for Vitamin D deficiency and immune support."
+      },
+      {
+        "brand_name": "Zimelt 3",
+        "generic_name": "Ondansetron / Sublingual Fast-Melt",
+        "category": "Supportive Care",
+        "clinical_indication": "Prevention of chemotherapy-induced and post-operative nausea and vomiting."
+      }
+    ]
+  }
+}

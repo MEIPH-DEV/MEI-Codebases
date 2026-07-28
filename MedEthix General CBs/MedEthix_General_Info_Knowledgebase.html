@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MedEthix Corporate Knowledgebase</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 15mm;
+        }
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 8.5pt;
+            line-height: 1.45;
+            color: #0f172a;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+        
+        .header-banner {
+            background: linear-gradient(135deg, #0369a1 0%, #0284c7 100%);
+            color: #ffffff;
+            padding: 16px 20px;
+            border-bottom: 4px solid #38bdf8;
+            border-radius: 4px;
+            margin-bottom: 16px;
+        }
+        .header-title {
+            font-size: 18pt;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: -0.5px;
+        }
+        .header-subtitle {
+            font-size: 9.5pt;
+            color: #e0f2fe;
+            margin-top: 4px;
+        }
+
+        h2 {
+            font-size: 11pt;
+            color: #0369a1;
+            border-left: 4px solid #0284c7;
+            padding-left: 8px;
+            margin-top: 16px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .summary-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 12px;
+        }
+
+        .summary-card {
+            background-color: #f0f9ff;
+            border: 1px solid #bae6fd;
+            border-radius: 4px;
+            padding: 10px;
+        }
+
+        .summary-card-title {
+            font-weight: 700;
+            color: #0369a1;
+            margin-bottom: 4px;
+            font-size: 8.5pt;
+            text-transform: uppercase;
+        }
+
+        table.data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 6px;
+            margin-bottom: 12px;
+            font-size: 8.5pt;
+        }
+        table.data-table th {
+            background-color: #0369a1;
+            color: #ffffff;
+            font-weight: 700;
+            text-align: left;
+            padding: 6px 8px;
+            border: 1px solid #0284c7;
+            text-transform: uppercase;
+            font-size: 7.5pt;
+        }
+        table.data-table td {
+            padding: 6px 8px;
+            border: 1px solid #cbd5e1;
+            vertical-align: top;
+        }
+        table.data-table tr:nth-child(even) td {
+            background-color: #f0f9ff;
+        }
+
+        .callout {
+            background-color: #f0f9ff;
+            border-left: 4px solid #0284c7;
+            color: #0369a1;
+            padding: 10px 12px;
+            margin-top: 12px;
+            border-radius: 0 4px 4px 0;
+            font-size: 8pt;
+        }
+        .callout-title {
+            font-weight: 700;
+            margin-bottom: 3px;
+        }
+
+        .brand-badge {
+            background-color: #0369a1;
+            color: #ffffff;
+            font-weight: 700;
+            font-size: 7.5pt;
+            padding: 2px 6px;
+            border-radius: 3px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <div class="header-title">MedEthix Incorporated</div>
+        <div class="header-subtitle">Corporate Overview & Comprehensive Product Knowledgebase</div>
+    </div>
+
+    <h2>1. Corporate Overview & Governance</h2>
+
+    <div class="summary-grid">
+        <div class="summary-card">
+            <div class="summary-card-title">Company Profile</div>
+            <strong>Established:</strong> 2009 | <strong>Parent:</strong> AC Health (Ayala Healthcare Holdings, Inc.)<br/>
+            <strong>Headquarters:</strong> Metro Manila, Philippines<br/>
+            <strong>Brand Promise:</strong> Humanely accessible and affordable high-quality healthcare for every Filipino.
+        </div>
+        <div class="summary-card">
+            <div class="summary-card-title">Regulatory & Standards</div>
+            <strong>FDA Authorizations:</strong> Over 500 Product Approvals<br/>
+            <strong>Manufacturing Standards:</strong> cGMP Compliant (US-FDA & UK-MHRA accredited source facilities)
+        </div>
+    </div>
+
+    <h2>2. Key Product Portfolio</h2>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th style="width: 18%;">Brand Name</th>
+                <th style="width: 28%;">Generic / Active Ingredient</th>
+                <th style="width: 20%;">Therapeutic Category</th>
+                <th style="width: 34%;">Primary Clinical Indications</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><span class="brand-badge">Dydrogest</span></td>
+                <td><strong>Dydrogesterone</strong></td>
+                <td>Reproductive Health</td>
+                <td>Threatened miscarriage, recurrent loss, luteal support, and dysmenorrhea.</td>
+            </tr>
+            <tr>
+                <td><span class="brand-badge">Pubergen</span></td>
+                <td><strong>Human Chorionic Gonadotropin (hCG)</strong></td>
+                <td>Fertility Care</td>
+                <td>Anovulatory infertility, hypogonadotropic hypogonadism, cryptorchidism.</td>
+            </tr>
+            <tr>
+                <td><span class="brand-badge">Gynogen HP</span></td>
+                <td><strong>Human Menopausal Gonadotropin (hMG)</strong></td>
+                <td>Reproductive Health</td>
+                <td>Controlled ovarian hyperstimulation in ART, spermatogenesis induction.</td>
+            </tr>
+            <tr>
+                <td><span class="brand-badge">Endmet</span></td>
+                <td><strong>Leuprorelin Acetate (3.75mg / 11.25mg)</strong></td>
+                <td>Oncology & Endocrine</td>
+                <td>Prostate cancer androgen deprivation, endometriosis, uterine fibroids.</td>
+            </tr>
+            <tr>
+                <td><span class="brand-badge">Mum-2-B Gold</span></td>
+                <td><strong>Multivitamins + Minerals + DHA</strong></td>
+                <td>Maternal Nutrition</td>
+                <td>Prenatal and postnatal fetal development and maternal nutrient support.</td>
+            </tr>
+            <tr>
+                <td><span class="brand-badge">Evacarb</span></td>
+                <td><strong>Carbamazepine (125mg / 250mg)</strong></td>
+                <td>Neurology</td>
+                <td>Seizure disorders and neuralgic pain management.</td>
+            </tr>
+            <tr>
+                <td><span class="brand-badge">Tranamic</span></td>
+                <td><strong>Tranexamic Acid</strong></td>
+                <td>Obstetrics & Surgery</td>
+                <td>Postpartum hemorrhage (PPH) control and surgical bleeding prophylaxis.</td>
+            </tr>
+            <tr>
+                <td><span class="brand-badge">Fast Aid Mist-Dress</span></td>
+                <td><strong>Lidocaine 1% + Cetrimide 0.1%</strong></td>
+                <td>First Aid / Wound Care</td>
+                <td>Spray-on liquid bandage for minor wounds, burns, and abrasions.</td>
+            </tr>
+            <tr>
+                <td><span class="brand-badge">RELISPRAY PLUS</span></td>
+                <td><strong>7 Natural Essential Oils Complex</strong></td>
+                <td>Topical Analgesics</td>
+                <td>Aerosol pain relief for deep muscle strains, sprains, and joint pain.</td>
+            </tr>
+            <tr>
+                <td><span class="brand-badge">Fast Aid VINODINE</span></td>
+                <td><strong>Povidone-Iodine 5% Aerosol</strong></td>
+                <td>First Aid / Antiseptic</td>
+                <td>Touch-free microbicidal spray for cut, burn, and wound antisepsis.</td>
+            </tr>
+            <tr>
+                <td><span class="brand-badge">Medifilm Vitamin D3</span></td>
+                <td><strong>Cholecalciferol (Oral Thin Film)</strong></td>
+                <td>Consumer Health / OTF</td>
+                <td>Fast-dissolving oral strip for Vitamin D supplementation and immune care.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="callout">
+        <div class="callout-title">Strategic Value Proposition</div>
+        MedEthix combines strong regulatory capabilities with nationwide distribution under AC Health (Ayala Group), providing reliable finished pharmaceutical products, innovative drug delivery systems (OTFs, aerosol dressings), and specialized ethical therapeutics across the Philippines.
+    </div>
+
+</body>
+</html>

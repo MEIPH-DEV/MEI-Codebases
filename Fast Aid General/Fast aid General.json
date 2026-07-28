@@ -1,0 +1,34 @@
+{
+  "fast_aid_medethix_knowledgebase": {
+    "brand_overview": {
+      "brand_name": "Fast Aid",
+      "brand_concept": "Modern 3-in-1 Aerosol First Aid System",
+      "parent_distributor": "MedEthix Incorporated (AC Health / Ayala Group)",
+      "market_positioning": "Replaces traditional bulky first-aid supplies with touch-free, spray-on delivery for immediate pain relief, infection control, and protective wound sealing.",
+      "general_directions": "Shake canister thoroughly before each use. Hold 5 cm away from the target area and spray evenly. Allow to air-dry."
+    },
+    "product_lineup": [
+      {
+        "brand_name": "Fast Aid Mist-Dress",
+        "generic_classification": "Spray-on Bandage / Liquid Dressing",
+        "dosage_strength": "Lidocaine (10 mg/mL) + Cetrimide (1 mg/mL)",
+        "dosage_form": "Topical Aerosol Spray (50 mL)",
+        "primary_mechanism": "Cetrimide acts as a cationic surfactant antiseptic to sanitize the wound bed, while Lidocaine provides rapid local anesthesia. Dries into a transparent, flexible, breathable, and waterproof protective film over cuts and abrasions."
+      },
+      {
+        "brand_name": "Fast Aid Vinodine",
+        "generic_classification": "Spray-on Antiseptic",
+        "dosage_strength": "Povidone-Iodine (5% w/v) in Alcohol Vehicle",
+        "dosage_form": "Topical Aerosol Spray (50 mL)",
+        "primary_mechanism": "Synergistic combination of elemental iodine release and quick-evaporating ethanol. Delivers broad-spectrum microbicidal activity against bacteria, viruses, fungi, and spores without friction or touch contact."
+      },
+      {
+        "brand_name": "Fast Aid Relispray Plus",
+        "generic_classification": "Spray-on Pain Relief Analgesic",
+        "dosage_strength": "7 Natural Herbal Essential Oils Complex (Wintergreen, Camphor, Menthol, Eucalyptus, Turpentine, Clove & Cinnamon Oils)",
+        "dosage_form": "Topical Aerosol Spray (50 mL)",
+        "primary_mechanism": "Deep-penetrating counter-irritant and anti-inflammatory action. Rapidly relieves acute muscle soreness, joint sprains, backache, and localized swelling from insect bites."
+      }
+    ]
+  }
+}

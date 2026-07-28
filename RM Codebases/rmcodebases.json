@@ -1,0 +1,57 @@
+{
+  "rm_codebase": {
+    "title": "RM Codebase",
+    "category": "Reproductive & Men's Health",
+    "brand_formulary": [
+      {
+        "brand_name": "Mamazol",
+        "generic_ingredient": "Miconazole",
+        "clinical_indications": "Candidal balanitis, cutaneous fungal infections, intertrigo, dermatophytosis.",
+        "mechanism_of_action": "Inhibits 14α-demethylase, blocking ergosterol synthesis and disrupting fungal cell membrane permeability and function.",
+        "dosing_and_clinical_pearls": "Apply topically to clean, dry affected areas twice daily for 2-4 weeks. Ensure adequate skin hygiene."
+      },
+      {
+        "brand_name": "Pubergen",
+        "generic_ingredient": "Human Chorionic Gonadotropin (hCG)",
+        "clinical_indications": "Hypogonadotropic hypogonadism, male infertility (induction of spermatogenesis), cryptorchidism.",
+        "mechanism_of_action": "Luteinizing Hormone (LH) receptor agonist that stimulates Leydig cells in the testes to synthesize and secrete endogenous testosterone.",
+        "dosing_and_clinical_pearls": "1500 IU to 5000 IU SC/IM 2-3 times per week. Commonly co-administered to maintain intratesticular testosterone levels during gonadotropin therapy or hormone protocols."
+      },
+      {
+        "brand_name": "Gynogen",
+        "generic_ingredient": "Estradiol",
+        "clinical_indications": "Estrogen receptor-mediated endocrinopathies, hormone replacement therapy, systemic estrogen management.",
+        "mechanism_of_action": "Binds to nuclear estrogen receptors (ERα and ERβ) to regulate target gene expression, gonadotropin negative feedback, and tissue metabolic homeostasis.",
+        "dosing_and_clinical_pearls": "Dose individualized according to serum laboratory monitoring. Monitor lipid profiles, blood pressure, and hepatic function."
+      },
+      {
+        "brand_name": "Endogen",
+        "generic_ingredient": "Dienogest",
+        "clinical_indications": "Progestogenic hormonal management, suppression of hormone-dependent tissue growth, chronic pelvic pain reduction.",
+        "mechanism_of_action": "Selective progestin with potent systemic and localized anti-estrogenic activity; suppresses ovarian estradiol production and induces endometrial/target tissue atrophy.",
+        "dosing_and_clinical_pearls": "2 mg daily taken continuously at the same time each day. Discontinuation or missed doses can trigger breakthrough bleeding."
+      },
+      {
+        "brand_name": "Evaban",
+        "generic_ingredient": "Apixaban",
+        "clinical_indications": "Deep vein thrombosis (DVT) and pulmonary embolism (PE) treatment/prophylaxis, post-surgical thromboprophylaxis.",
+        "mechanism_of_action": "Direct, reversible inhibitor of free and clot-bound Factor Xa, suppressing thrombin generation and fibrin clot formation without requiring antithrombin III.",
+        "dosing_and_clinical_pearls": "2.5 mg to 5 mg orally BID depending on renal clearance and clinical indication. Lower risk of major GI bleeding relative to warfarin."
+      },
+      {
+        "brand_name": "Endmet 11.25",
+        "generic_ingredient": "Leuprorelin Acetate (11.25mg Depot)",
+        "clinical_indications": "Advanced/metastatic prostate cancer, extended 3-month depot androgen deprivation therapy (ADT).",
+        "mechanism_of_action": "Potent long-acting GnRH receptor agonist; continuous exposure leads to pituitary desensitization, suppression of LH/FSH secretion, and reduction of serum testosterone to castrate levels (<50 ng/dL).",
+        "dosing_and_clinical_pearls": "11.25 mg SC/IM injection administered every 12 weeks. Monitor serum testosterone and serum PSA response periodically."
+      },
+      {
+        "brand_name": "Endmet 3.75",
+        "generic_ingredient": "Leuprorelin Acetate (3.75mg Depot)",
+        "clinical_indications": "Advanced prostate cancer (1-month depot ADT), hormone-sensitive tumor management.",
+        "mechanism_of_action": "Continuous GnRH receptor stimulation causing pituitary receptor downregulation and suppression of testicular androgen synthesis.",
+        "dosing_and_clinical_pearls": "3.75 mg SC/IM injection monthly. Co-administer an anti-androgen for the first 2-4 weeks to mitigate testosterone surge/flare symptoms."
+      }
+    ]
+  }
+}

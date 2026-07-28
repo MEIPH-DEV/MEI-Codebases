@@ -1,0 +1,36 @@
+{
+  "godrej_fmcg_knowledgebase": {
+    "brand_overview": {
+      "parent_company": "Godrej Consumer Products Limited (GCPL)",
+      "distribution_partner": "MedEthix Incorporated (Philippines)",
+      "market_positioning": "High-quality, innovative FMCG home, baby, and personal care essentials built around safety, affordability, and convenience for everyday household wellness.",
+      "portfolio_scope": "Baby Care, Hair Care/Color, Air Care, and Household Insecticides / Vector Control."
+    },
+    "product_lineup": [
+      {
+        "brand_name": "Mitu Baby",
+        "category": "Baby Care & Hygiene",
+        "key_offerings": "Hypoallergenic Baby Wipes, Baby Powder, Gentle Shampoo, and Hair Lotion",
+        "core_features": "Alcohol-free, dermatologically tested, enriched with natural extracts (Chamomile, Aloe Vera) designed specifically for sensitive infant skin."
+      },
+      {
+        "brand_name": "NYU Hair Care",
+        "category": "Hair Color & Personal Care",
+        "key_offerings": "NYU Crème Hair Colour & NYU Henna Shampoo Hair Colour",
+        "core_features": "Ammonia-free formulation enriched with super-fruit extracts (Apple, Kiwi, Strawberry) and Super Fruit Oils to prevent damage while delivering vibrant, odorless color."
+      },
+      {
+        "brand_name": "Stella",
+        "category": "Air Care & Home Fragrance",
+        "key_offerings": "Stella Matic Automatic Sprays, Stella Pocket Bathroom, Air Freshener Aerosols & Reed Diffusers",
+        "core_features": "Long-lasting, premium ambient fragrance delivery using nature-inspired essential oils for living spaces, bathrooms, and automobiles."
+      },
+      {
+        "brand_name": "HIT",
+        "category": "Household Insect Control",
+        "key_offerings": "HIT Aerosol Spray, HIT Goodknight Electric Liquid Repellent & HIT Magic Expert Piramida",
+        "core_features": "Fast knock-down vector control against mosquitoes, roaches, and crawling insects; engineered for household safety and multi-hour protection."
+      }
+    ]
+  }
+}

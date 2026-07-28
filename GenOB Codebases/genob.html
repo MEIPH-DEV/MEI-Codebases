@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>General OB Codebase</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 15mm;
+        }
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 8.5pt;
+            line-height: 1.45;
+            color: #1e293b;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+        
+        .header-banner {
+            background: linear-gradient(135deg, #831843 0%, #be185d 100%);
+            color: #ffffff;
+            padding: 16px 20px;
+            border-bottom: 4px solid #f43f5e;
+            border-radius: 4px;
+            margin-bottom: 16px;
+        }
+        .header-title {
+            font-size: 18pt;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: -0.5px;
+        }
+        .header-subtitle {
+            font-size: 9.5pt;
+            color: #fbcfe8;
+            margin-top: 4px;
+        }
+
+        h2 {
+            font-size: 11pt;
+            color: #831843;
+            border-left: 4px solid #be185d;
+            padding-left: 8px;
+            margin-top: 16px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        table.data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 6px;
+            margin-bottom: 12px;
+            font-size: 8.5pt;
+        }
+        table.data-table th {
+            background-color: #831843;
+            color: #ffffff;
+            font-weight: 700;
+            text-align: left;
+            padding: 6px 8px;
+            border: 1px solid #9d174d;
+            text-transform: uppercase;
+            font-size: 7.5pt;
+        }
+        table.data-table td {
+            padding: 6px 8px;
+            border: 1px solid #cbd5e1;
+            vertical-align: top;
+        }
+        table.data-table tr:nth-child(even) td {
+            background-color: #fdf2f8;
+        }
+
+        .callout {
+            background-color: #fdf2f8;
+            border-left: 4px solid #be185d;
+            color: #831843;
+            padding: 10px 12px;
+            margin-top: 12px;
+            border-radius: 0 4px 4px 0;
+            font-size: 8pt;
+        }
+        .callout-title {
+            font-weight: 700;
+            margin-bottom: 3px;
+        }
+
+        .brand-badge {
+            background-color: #831843;
+            color: #ffffff;
+            font-weight: 700;
+            font-size: 7.5pt;
+            padding: 2px 6px;
+            border-radius: 3px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <div class="header-title">General OB Codebase</div>
+        <div class="header-subtitle">Obstetrics & Maternal Health Clinical Therapeutics & Formulary</div>
+    </div>
+
+    <h2>1. Obstetric Brand Formulary</h2>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th style="width: 14%;">Brand Name</th>
+                <th style="width: 20%;">Active Ingredient</th>
+                <th style="width: 22%;">Clinical Indications</th>
+                <th style="width: 24%;">Mechanism of Action</th>
+                <th style="width: 20%;">Dosing & Clinical Pearls</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><span class="brand-badge">Dydrogest</span></td>
+                <td><strong>Dydrogesterone</strong></td>
+                <td>Threatened miscarriage, recurrent loss, luteal phase support.</td>
+                <td>Orally active progestogen with selective progesterone receptor affinity.</td>
+                <td>10-40 mg daily. Supports gestation without androgenic activity.</td>
+            </tr>
+            <tr>
+                <td><span class="brand-badge">Evamin</span></td>
+                <td><strong>Multivitamins</strong></td>
+                <td>Maternal nutritional maintenance, general pregnancy support.</td>
+                <td>Provides vitamins necessary for maternal metabolic demands.</td>
+                <td>1 tablet daily post-meal. Prevents micronutrient depletion.</td>
+            </tr>
+            <tr>
+                <td><span class="brand-badge">Medeprim</span></td>
+                <td><strong>Co-trimoxazole</strong></td>
+                <td>Susceptible urinary tract & respiratory tract infections.</td>
+                <td>Blocks sequential steps in bacterial folic acid synthesis.</td>
+                <td>1 tablet DS BID. Avoid near term due to potential neonatal hyperbilirubinemia.</td>
+            </tr>
+            <tr>
+                <td><span class="brand-badge">Mum-2-B Plus</span></td>
+                <td><strong>Multivitamins & Minerals</strong></td>
+                <td>Prenatal supplementation, neural tube defect prevention.</td>
+                <td>Essential vitamins, minerals, and folic acid for embryogenesis.</td>
+                <td>1 capsule daily. Crucial during early organogenesis.</td>
+            </tr>
+            <tr>
+                <td><span class="brand-badge">Prevadopa</span></td>
+                <td><strong>Methyldopa</strong></td>
+                <td>Gestational hypertension, preeclampsia, chronic hypertension.</td>
+                <td>Central alpha-2 adrenergic agonist; decreases systemic resistance.</td>
+                <td>250-500 mg BID/TID. Preferred first-line antihypertensive in pregnancy.</td>
+            </tr>
+            <tr>
+                <td><span class="brand-badge">Tranamic</span></td>
+                <td><strong>Tranexamic Acid</strong></td>
+                <td>Postpartum hemorrhage (PPH), severe bleeding control.</td>
+                <td>Antifibrinolytic; inhibits plasminogen activation to prevent fibrinolysis.</td>
+                <td>1 g IV over 10 mins within 3 hrs of PPH onset. Repeat in 30 mins if needed.</td>
+            </tr>
+            <tr>
+                <td><span class="brand-badge">Erytose</span></td>
+                <td><strong>Erythromycin</strong></td>
+                <td>PPROM latency therapy, gestational Chlamydia infection.</td>
+                <td>Macrolide; reversibly binds 50S ribosome to halt protein synthesis.</td>
+                <td>250-500 mg QID. Core component of PPROM latency regimes.</td>
+            </tr>
+            <tr>
+                <td><span class="brand-badge">Evafer</span></td>
+                <td><strong>Iron Supplement</strong></td>
+                <td>Iron deficiency anemia, fetal red cell support, PPH recovery.</td>
+                <td>Supplies elemental iron essential for functional hemoglobin synthesis.</td>
+                <td>60-120 mg elemental iron daily on empty stomach with Vitamin C.</td>
+            </tr>
+            <tr>
+                <td><span class="brand-badge">Evacarb 125</span></td>
+                <td><strong>Carbamazepine (125mg)</strong></td>
+                <td>Gestational seizure disorders, neuralgic pain control.</td>
+                <td>Blockade of voltage-gated sodium channels in hyperexcitable neurons.</td>
+                <td>125 mg BID titrated. Supplement with high-dose Folic Acid (5mg/day).</td>
+            </tr>
+            <tr>
+                <td><span class="brand-badge">Evacarb 250</span></td>
+                <td><strong>Carbamazepine (250mg)</strong></td>
+                <td>Generalized tonic-clonic seizures, epilepsy in pregnancy.</td>
+                <td>Suppresses sustained repetitive firing via sodium channel inactivation.</td>
+                <td>250 mg BID/TID. Administer Vitamin K to mother prior to delivery.</td>
+            </tr>
+            <tr>
+                <td><span class="brand-badge">Contractocin</span></td>
+                <td><strong>Oxytocin</strong></td>
+                <td>Labor induction/augmentation, PPH prophylaxis & management.</td>
+                <td>Stimulates uterine oxytocin receptors, increasing calcium-mediated contraction.</td>
+                <td>Induction: 1-2 mU/min IV. PPH: 10 units IM or IV infusion post-delivery.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="callout">
+        <div class="callout-title">Obstetric High-Alert Protocol: Postpartum Hemorrhage (PPH) Management</div>
+        When addressing obstetric hemorrhage, early intervention is critical: co-administer <strong>Tranamic</strong> (Tranexamic Acid 1 g IV) alongside uterotonic agents like <strong>Contractocin</strong> (Oxytocin) within 3 hours of birth. Delay beyond 3 hours significantly decreases antifibrinolytic efficacy.
+    </div>
+
+</body>
+</html>

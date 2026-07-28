@@ -1,0 +1,85 @@
+{
+  "general_ob_codebase": {
+    "title": "General OB Codebase",
+    "category": "Obstetrics & Maternal Health",
+    "brand_formulary": [
+      {
+        "brand_name": "Dydrogest",
+        "generic_ingredient": "Dydrogesterone",
+        "clinical_indications": "Threatened miscarriage, recurrent pregnancy loss, luteal phase support in ART, dysmenorrhea, progesterone deficiency.",
+        "mechanism_of_action": "Orally active progestogen with high affinity for progesterone receptors; supports endometrial maturation and gestation without androgenic side effects.",
+        "dosing_and_clinical_pearls": "10 mg to 40 mg daily depending on clinical indication. Maintains pregnancy without suppressing ovulation at standard doses."
+      },
+      {
+        "brand_name": "Evamin",
+        "generic_ingredient": "Multivitamins",
+        "clinical_indications": "Maternal nutritional support, preconception optimization, prevention of pregnancy-related vitamin deficiencies.",
+        "mechanism_of_action": "Provides essential micronutrients to support maternal metabolic demand, cellular differentiation, and fetal tissue development.",
+        "dosing_and_clinical_pearls": "1 tablet daily with meals. Essential for satisfying elevated daily dietary requirements during gestation."
+      },
+      {
+        "brand_name": "Medeprim",
+        "generic_ingredient": "Co-trimoxazole (Sulfamethoxazole + Trimethoprim)",
+        "clinical_indications": "Treatment of susceptible urinary tract infections (UTIs) and lower respiratory tract infections.",
+        "mechanism_of_action": "Sequential dual-blockade of bacterial folic acid synthesis via inhibition of dihydropteroate synthase and dihydrofolate reductase.",
+        "dosing_and_clinical_pearls": "1 double-strength (800/160 mg) tablet BID. Use caution in 1st trimester (folate antagonist) and late 3rd trimester (kernicterus risk)."
+      },
+      {
+        "brand_name": "Mum-2-B Plus",
+        "generic_ingredient": "Multivitamins and Minerals",
+        "clinical_indications": "Comprehensive prenatal and postnatal nutritional support, prevention of neural tube defects and maternal anemia.",
+        "mechanism_of_action": "Delivers core micronutrients including Folic Acid, Iron, Calcium, and Zinc to support embryonic development and maternal blood expansion.",
+        "dosing_and_clinical_pearls": "1 capsule daily post-meal. High-folate prenatal complex critical for early neural fold closure."
+      },
+      {
+        "brand_name": "Prevadopa",
+        "generic_ingredient": "Methyldopa",
+        "clinical_indications": "Gestational hypertension, preeclampsia management, chronic hypertension in pregnancy.",
+        "mechanism_of_action": "Centrally acting alpha-2 adrenergic receptor agonist; decreases sympathetic outflow to lower peripheral vascular resistance and blood pressure.",
+        "dosing_and_clinical_pearls": "250 mg to 500 mg BID/TID (max 3 g/day). First-line antihypertensive with long-standing safety profiles in fetal outcomes."
+      },
+      {
+        "brand_name": "Tranamic",
+        "generic_ingredient": "Tranexamic Acid",
+        "clinical_indications": "Postpartum hemorrhage (PPH) management, surgical bleeding control during cesarean delivery, severe menorrhagia.",
+        "mechanism_of_action": "Competitive antifibrinolytic; binds plasminogen lysine sites to block plasmin binding and prevent fibrin degradation.",
+        "dosing_and_clinical_pearls": "1 g IV over 10 mins within 3 hours of PPH onset. Can repeat once after 30 mins if bleeding persists."
+      },
+      {
+        "brand_name": "Erytose",
+        "generic_ingredient": "Erythromycin",
+        "clinical_indications": "Preterm premature rupture of membranes (PPROM), Chlamydia trachomatis in pregnancy, penicillin-allergic patients.",
+        "mechanism_of_action": "Macrolide antibiotic; reversibly binds the 50S ribosomal subunit to inhibit bacterial protein synthesis.",
+        "dosing_and_clinical_pearls": "250 mg to 500 mg QID. Standard component of PPROM latency antibiotic protocols."
+      },
+      {
+        "brand_name": "Evafer",
+        "generic_ingredient": "Iron Supplement (Ferrous Salt / Iron Complex)",
+        "clinical_indications": "Iron deficiency anemia of pregnancy, expansion of maternal red cell mass, post-hemorrhage recovery.",
+        "mechanism_of_action": "Provides essential elemental iron required for hemoglobin synthesis and oxygen transport to fetal tissues.",
+        "dosing_and_clinical_pearls": "60 mg to 120 mg elemental iron daily on an empty stomach with Vitamin C to maximize intestinal absorption."
+      },
+      {
+        "brand_name": "Evacarb 125",
+        "generic_ingredient": "Carbamazepine (125mg)",
+        "clinical_indications": "Maternal epilepsy management, trigeminal neuralgia during pregnancy.",
+        "mechanism_of_action": "Use-dependent voltage-gated sodium channel blocker; stabilizes hyperexcitable neuronal membranes and suppresses repetitive firing.",
+        "dosing_and_clinical_pearls": "125 mg BID titrated as needed. Co-administer high-dose Folic Acid (5 mg/day) and monitor maternal serum drug levels."
+      },
+      {
+        "brand_name": "Evacarb 250",
+        "generic_ingredient": "Carbamazepine (250mg)",
+        "clinical_indications": "Generalized tonic-clonic seizures, focal epilepsy management in obstetric patients.",
+        "mechanism_of_action": "Sustains inactivation of voltage-gated sodium channels to control neuronal synchronization and seizure spread.",
+        "dosing_and_clinical_pearls": "250 mg BID/TID. Requires maternal VK1 supplementation near delivery to lower neonatal hemorrhagic risk."
+      },
+      {
+        "brand_name": "Contractocin",
+        "generic_ingredient": "Oxytocin",
+        "clinical_indications": "Induction and augmentation of labor, prevention and treatment of postpartum hemorrhage (PPH).",
+        "mechanism_of_action": "Binds G-protein coupled oxytocin receptors in myometrium, increasing intracellular calcium and triggering uterine contractions.",
+        "dosing_and_clinical_pearls": "Labor induction: IV infusion starting at 1-2 mU/min. PPH prevention: 10 units IM or slow IV drip post-delivery."
+      }
+    ]
+  }
+}
