@@ -72,8 +72,8 @@ In accordance with joint governance policies (`MEI-POL-2026-004`):
 
 For technical issues, access requests, or pipeline failures, contact the joint management leads:
 
-* **MEI IT Department:** John Balnig — *MEI IT Supervisor* (`it@medethix.com`)
-* **CHW Digital Team:** Macky Daus — *Digital Marketing Manager* (`digital@chw.com`)
+* **MEI IT Department:** John Balnig — *MEI IT Supervisor* (`john@medethix.com.ph`)
+* **CHW Digital Team:** Macky Daus — *Digital Marketing Manager* (`digital@medethix.com.ph`)
 
 ---
 *© 2026 MedEthix Inc. & CHW Digital Team. Confidential and Proprietary.*
