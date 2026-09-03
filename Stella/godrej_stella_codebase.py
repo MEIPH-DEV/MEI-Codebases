@@ -1,0 +1,93 @@
+"""
+Godrej Stella Codebase Module
+Auto-generated for programmatic access to Stella air care product data.
+"""
+
+import json
+
+class GodrejStellaKnowledgeBase:
+    """Class to manage and retrieve information on Godrej Stella products."""
+    
+    def __init__(self):
+        self.metadata = {
+            "title": "Godrej Stella Codebase",
+            "description": "Comprehensive reference document for Godrej Stella, Indonesia's leading air care and home fragrance brand manufactured by PT Megasari Makmur (Godrej Consumer Products)."
+        }
+        
+        self.brand_overview = {
+        "brand_name": "Stella (Air Freshener)",
+        "parent_company": "Godrej Consumer Products Indonesia",
+        "category": "Home Care, Air Fresheners, & Fabric Care",
+        "philosophy": "Bringing natural, long-lasting, and refreshing fragrances into everyday living spaces, ensuring every room and vehicle feels welcoming and odor-free."
+}
+        self.product_lines = [
+        {
+                "name": "Stella Matic Room Air Fresheners",
+                "format": "Automatic Aerosol Dispenser & Refills",
+                "variants": [
+                        "Japanese Sakura",
+                        "Green Fantasy",
+                        "Secret Lavender",
+                        "Warm Verbena",
+                        "Caffe Latte",
+                        "Wild Flower"
+                ],
+                "features": "Battery-operated automatic timer functionality with adjustable spray intervals. Delivers consistent, signature natural fragrances over 30 to 60 days.",
+                "applications": "Ideal for living rooms, offices, and larger indoor spaces."
+        },
+        {
+                "name": "Stella All-In-One Air Freshener",
+                "format": "Solid Gel / Hanging Freshener",
+                "variants": [
+                        "Balinese Jasmine Sensation",
+                        "Apple Fiesta",
+                        "Lemon Splash",
+                        "Orange Zest",
+                        "Lavender Garden"
+                ],
+                "features": "Economical and practical solid air freshener infused with natural oils. Effectively eliminates unpleasant odors.",
+                "applications": "Versatile use in cars, bedrooms, bathrooms, and closets."
+        },
+        {
+                "name": "Stella Pocket / Bathroom Freshener",
+                "format": "Compact Hanging Pouch",
+                "variants": [
+                        "Luxurious Flower",
+                        "Green Apple",
+                        "Orange Twist"
+                ],
+                "features": "Slim, space-saving design that provides up to 30 days of continuous freshness. Contains highly concentrated perfume oils.",
+                "applications": "Specifically formulated for bathrooms, toilets, and small cupboards to neutralize damp and foul odors."
+        },
+        {
+                "name": "Stella Car Perfume & Daily Freshness",
+                "format": "Vent Clips & Dashboard Perfumes",
+                "variants": [
+                        "Golden Vanilla",
+                        "Energize Purple",
+                        "Car Clip 'n Twist After Smoke"
+                ],
+                "features": "Sleek liquid and gel formulations with adjustable scent intensity. 'After Smoke' variants contain specific odor-neutralizing technology.",
+                "applications": "Automotive interiors, easily attaching to AC vents for uniform fragrance distribution."
+        },
+        {
+                "name": "Stella Fresh + Protect Fabric Spray",
+                "format": "Liquid Trigger Spray",
+                "variants": [
+                        "Cotton Bloom"
+                ],
+                "features": "Dual-action formula acts as a fabric freshener and disinfectant. Kills 99.9% of germs while removing trapped odors from textiles without leaving stains.",
+                "applications": "Sofas, curtains, carpets, bed linens, and clothing."
+        }
+]
+        
+    def get_product(self, product_name: str) -> dict:
+        """Retrieve a specific product line by name."""
+        for prod in self.product_lines:
+            if product_name.lower() in prod['name'].lower():
+                return prod
+        return None
+
+if __name__ == "__main__":
+    kb = GodrejStellaKnowledgeBase()
+    print(f"Loaded: {kb.brand_overview['brand_name']} ({len(kb.product_lines)} product lines)")
