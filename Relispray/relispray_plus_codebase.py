@@ -1,0 +1,45 @@
+"""
+Relispray Plus Codebase Module
+Auto-generated for programmatic access to Relispray Plus technical data.
+"""
+
+import json
+
+class RelisprayPlusKnowledgeBase:
+    """Class to manage and retrieve information on Relispray Plus."""
+    
+    def __init__(self):
+        self.metadata = {
+            "title": "Relispray Plus Codebase",
+            "description": "Comprehensive basic, advanced, medical, and technical reference for Relispray Plus (Multicomponent Topical Analgesic)."
+        }
+        
+        self.product = {
+        "brand_name": "Relispray Plus",
+        "generic_name": "Wintergreen Oil, Camphor, Turpentine Oil, Eucalyptus Oil, Menthol, Clove Oil, Cinnamon Oil",
+        "category": "Topical Analgesic / Rubefacient / Counter-irritant",
+        "basic_information": {
+                "description": "Relispray Plus is a topical aerosol formulation combining powerful counter-irritants and essential oils. It is designed to penetrate the skin rapidly, delivering a dual cooling-warming sensation to alleviate musculoskeletal discomfort.",
+                "common_uses": "Fast relief from muscle aches, backaches, joint pain, sprains, strains, arthritis pain, and sports-related injuries."
+        },
+        "medical_information": {
+                "mechanism_of_action": "Operates primarily via the Gate Control Theory of pain through counter-irritation. Menthol and Camphor stimulate TRPM8 and TRPV1 receptors respectively, creating intense cooling and warming sensations that override deep pain signals. Wintergreen Oil (rich in methyl salicylate) provides localized anti-inflammatory prostaglandin inhibition. Turpentine and Eucalyptus oils act as rubefacients, causing vasodilation and increased local blood flow. Clove oil (eugenol) and Cinnamon oil (cinnamaldehyde) offer mild local anesthetic and deep warming effects.",
+                "indications": "Symptomatic relief of acute and chronic musculoskeletal pain, myalgia, arthralgia, sciatica, and minor sports trauma (non-open wounds).",
+                "contraindications": "Hypersensitivity to salicylates (aspirin) or any essential oil components. Absolutely contraindicated for application on broken skin, severe burns, mucosal membranes, or eyes. Caution advised in pediatric patients and pregnant/nursing women.",
+                "adverse_effects": "Commonly causes temporary local erythema and a burning/stinging sensation. Rare adverse effects include allergic contact dermatitis, severe skin irritation, or chemical burns if occlusive dressings are applied over the sprayed area."
+        },
+        "technical_information": {
+                "chemical_composition": "A complex botanical and chemical blend primarily containing Methyl Salicylate (Wintergreen), Terpenes/Monoterpenes (Camphor, Menthol, 1,8-Cineole from Eucalyptus, alpha/beta-pinene from Turpentine), Eugenol (Clove), and Cinnamaldehyde (Cinnamon).",
+                "solubility": "The active ingredients are highly lipophilic; soluble in alcohol, fixed oils, and aerosol propellants. Insoluble in water.",
+                "physical_properties": "Dispensed as a fine, pressurized aerosol mist. It possesses a very strong, volatile, characteristic aromatic odor (minty, camphoraceous, and spicy).",
+                "absorption": "Rapid percutaneous absorption facilitated by the volatile solvents and rubefacient action, allowing active components (like methyl salicylate) to reach local subdermal tissues quickly."
+        }
+}
+        
+    def get_section(self, section_name: str) -> dict:
+        """Retrieve a specific section of the data."""
+        return self.product.get(section_name, None)
+
+if __name__ == "__main__":
+    kb = RelisprayPlusKnowledgeBase()
+    print(f"Loaded database for: {kb.product['brand_name']}")
